@@ -1,6 +1,6 @@
 import Footer from "./footer"
 import '../CSS/courses.css'
-import trailer from '../assets/trailer.mp4'
+// import trailer from '../assets/trailer.mp4'
 
 const Courses = () => {
   return (

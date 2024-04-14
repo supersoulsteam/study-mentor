@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import '../CSS/video_solution.css'
-import trailer from '../assets/trailer.mp4'
+// import trailer from '../assets/trailer.mp4'
 
 const Video_solution = () => {
   return (
@@ -15,9 +15,9 @@ const Video_solution = () => {
           Text solution
         </div>
         <div className="video">
-          <video className="vid" autoPlay muted controls loop>
+          {/* <video className="vid" autoPlay muted controls loop>
             <source src={trailer} />
-          </video>
+          </video> */}
         </div>
       </div>
     </div>
